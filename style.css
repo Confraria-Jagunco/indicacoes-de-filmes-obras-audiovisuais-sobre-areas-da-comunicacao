@@ -1,0 +1,198 @@
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #029803;
+    padding: 0.3rem 0;
+}
+
+header>img {
+    cursor: pointer;
+    width: 15rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 8rem 0;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.mainTitle, .indicationContent {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 5rem 0 1rem 0;
+    width: 38rem;
+}
+
+.mainTitle>h1 {
+    font-family: "Open Sans", serif;
+    font-size: 30pt;
+    margin: 0;
+}
+
+.mainTitle>p {
+    font-size: 10pt;
+    font-family: "Lexend Deca", serif;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.mainText>p, .indicationContent>p {
+    font-family: "Lexend Deca", serif;
+    font-size: 13pt;
+    width: 38rem;
+}
+
+.indicationContent>h3 {
+    font-family: "Open Sans", serif;
+    font-size: 20pt;
+    margin-bottom: 0.3rem;
+}
+
+.indicationContent>h5 {
+    font-family: "Lexend Deca", serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 0 0 1.3rem 0;
+}
+
+.indicationContent>h5>i:hover {
+    color: #029803;
+    text-decoration: dashed;
+    text-shadow: 4px 4px 4px #004b00;
+}
+
+.writerProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38rem;
+    gap: 1rem;
+    margin: 4rem 0 0 0;
+}
+
+.authorsImages {
+    display: flex;
+}
+
+.authorsImages>img {
+    clip-path: circle();
+    width: 6rem;
+}
+
+.textAboutAuthors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textAboutAuthors>h4 {
+    font-family: "Open Sans", serif;
+    text-align: center;
+    margin: 0 0 0.3rem 0;
+}
+
+.textAboutAuthors>p {
+    font-family: "Lexend Deca", serif;
+    text-align: center;
+    font-size: 10pt;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #029803;
+}
+
+footer>img {
+    margin: 0;
+    cursor: pointer;
+    width: 8rem;
+}
+
+.socialWides {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+
+.socialWides>p>a {
+    color: #ffffff;
+}
+
+.socialWides>p>a:active {
+    color: rgb(72, 72, 72);
+}
+
+#copyright {
+    color: rgb(255, 255, 255);
+    font-family: "Lexend Deca", serif;
+    font-size: 10pt;
+    margin: 1.5rem 0 0 0;
+}
+
+@media (max-width: 850px) {
+    main {
+        margin: 0 0 2rem 0;
+    }
+
+    .mainTitle {
+        margin: 2rem 0 0 0;
+        width: 100%;
+    }
+
+    .mainTitle>h1 {
+        font-size: 26pt;
+    }
+
+    .mainText {
+        width: 90%;
+    }
+
+    .mainText>p {
+        width: 100%;
+    }
+
+    .indicationContent {
+        width: 100%;
+    }
+
+    .indicationContent>p {
+        width: 100%;
+    }
+
+    .writerProfile {
+        margin: 1rem 0 0 0;
+        width: 90%;
+    }
+
+    .authorsImages>img {
+        width: 4.5rem;
+    }
+
+    .indicationContent>img {
+        width: 100%;
+    }
+}
