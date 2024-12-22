@@ -81,6 +81,15 @@ main {
     text-shadow: 4px 4px 4px #004b00;
 }
 
+#goodbye {
+    font-size: 11pt;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 2rem 0 2rem 0;
+    width: 32rem;
+}
+
 .writerProfile {
     display: flex;
     flex-direction: column;
@@ -181,6 +190,10 @@ footer>img {
 
     .indicationContent>p {
         width: 100%;
+    }
+
+    #goodbye {
+        width: 80%;
     }
 
     .writerProfile {
